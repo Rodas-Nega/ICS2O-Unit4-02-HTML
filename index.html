@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Javascript Introduction">
+    <meta name="keywords" content="button, function">
+    <meta name="author" content="Rodas Nega">
+    <meta name="viewport" content="width=device-width">
+    <title>Hello, World in Javascript!</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body style="background-color:aliceblue">
+    <h1 style="text-align:center;">Hello, World!</h1>
+
+    <!--Image-->
+    
+    <button onclick="document.getElementById('myImage').src='images/happy.jpg'">Happy</button>
+
+    <img src="images/sad.png" style="width:100px" id="myImage">
+
+    <button onclick="document.getElementById('myImage').src='images/sad.png'">Sad</button> 
+
+    <!--Text-->
+
+    <button type="button" onclick="energetic()">Click me!</button>
+
+    <p id="option1"></p>
+    <p id="option2"></p>
+
+    <button type="button" onclick="fatigue()">No! Click me!</button>
+    
+    <p onclick="visible()">Where am I?</p>
+    
+    <div id="appear">
+      <p>You found me!</p>
+    </div>
+
+    <!--Background-->
+
+    <button type="button" onclick="background()">What will this do?</button>
+
+    <script src="script.js"></script> 
+  </body>
+</html> 
+
+
